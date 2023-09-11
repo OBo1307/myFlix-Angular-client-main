@@ -19,7 +19,6 @@ As a user, I want to:
 * App displays a welcome view where users can either log in or register an account.
 * Once authenticated, the user sees the main "all-movies" view, filter buttons and a personalized navbar.
 * Navbar allows access to profile area view and logout options via a dropdown menu.
-* User can filter movies by favorites.
 * The individual movie cards container additional features:
     * A button that opens a dialog,​ where details about the director of that particular movie will be displayed.
     * A button that opens a dialog,​ where details about that particular genre of the movie will be displayed.
