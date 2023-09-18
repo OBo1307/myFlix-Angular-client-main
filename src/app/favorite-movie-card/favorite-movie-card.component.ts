@@ -33,11 +33,6 @@ export class FavoriteMovieCardComponent {
     let favoriteMoviesID = await this.getFavoriteMovies()
     console.log(allMovies);
     console.log(favoriteMoviesID);
-    // this.listOfFavoriteMovies = this.movies.filter((m) => {
-    //   this.favorites.includes(m.id);
-    // });
-    // console.log(this.listOfFavoriteMovies);
-    // return this.listOfFavoriteMovies;
   }
 
   getMovies(): void {
@@ -90,8 +85,6 @@ export class FavoriteMovieCardComponent {
         Name: name,
         Description: description,
       },
-      // panelClass: 'genre-dialog-background',
-      // width: '400px',
     });
   }
 
